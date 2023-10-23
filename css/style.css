@@ -1,0 +1,83 @@
+* {
+    font-family: 'Gaegu', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Black Han Sans';
+    background: rgb(190, 172, 148);
+    background: radial-gradient(circle,
+            rgb(202, 182, 155) 0%,
+            rgb(192, 178, 148) 100%);
+}
+
+.search {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+input {
+    border: 0;
+    outline: none;
+    font-size: 10px;
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.movieCard {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.24);
+    margin: 20px;
+    padding: 20px;
+    width: 350px;
+    justify-self: center;
+    border-radius: 10px;
+    user-select: none;
+    transition: all 0.2s linear;
+}
+
+.movieImg {
+    display: block;
+    margin: 0 auto;
+    color: rgb(95, 27, 0);
+}
+
+.movieTitle {
+    font: 25px 'Gowun Dodum', sans-serif;
+    height: 50px;
+    font-size: 30;
+    padding: 40px 20px;
+    color: rgb(29, 92, 55);
+}
+
+.movieOverview {
+    font: 10px 'Gowun Dodum', sans-serif;
+    padding: 40px 20px;
+    height: 200px;
+    color: rgb(95, 27, 0);
+}
+
+.movieRate {
+    font: 20px 'Gowun Dodum', sans-serif;
+    height: 100px;
+    color: rgb(95, 27, 0);
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.btnImage {
+    background-size: cover;
+    background-color:transparent;
+    width: 100px;
+    height: 100px;
+}
